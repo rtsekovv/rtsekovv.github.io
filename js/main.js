@@ -7,6 +7,7 @@ const translations = {
         testimonials: { tag: 'Reviews', title: 'What clients say', item1: { text: '"Finally I understand where money goes and how to grow it. Saved my first emergency fund in 6 months."', name: 'Alexander M.', role: 'IT Specialist' }, item2: { text: '"Was afraid to invest — seemed complex and risky. Now I have a diversified portfolio and peace of mind."', name: 'Victoria S.', role: 'Entrepreneur' }, item3: { text: '"Optimized taxes — saved more than the consultation cost. Recommend to everyone who values their money."', name: 'Michael K.', role: 'Doctor' } },
         faq: { title: 'FAQ', q1: { q: 'What\'s the minimum amount to start?', a: 'You can start with any amount — even $100. Consistency and strategy matter more than the first deposit size.' }, q2: { q: 'Do I need special knowledge?', a: 'No. I explain everything in simple terms and give step-by-step instructions anyone can follow.' }, q3: { q: 'How long does it take?', a: 'Consultation — 1-2 hours. Financial plan — 2-3 weeks. Mentorship — from 3 months.' }, q4: { q: 'Do you guarantee returns?', a: 'No — and no one can honestly guarantee. I guarantee a systematic approach and transparency.' }, q5: { q: 'Do you work remotely?', a: 'Yes, 100% online — Zoom, Telegram, Google Docs. Geography doesn\'t matter.' } },
         video: { tag: 'Education', title: 'How the stock market works', subtitle: 'A short video about the basics of investing that will help you make informed decisions', playText: 'Watch video', duration: '3:45', feature1Title: 'No jargon', feature1Desc: 'Explained in simple terms', feature2Title: 'Real examples', feature2Desc: 'Practice, not theory', feature3Title: 'Quick start', feature3Desc: 'Start in 5 minutes' },
+        certs: { tag: 'Qualifications', title: 'Certificates & Licenses', subtitle: 'Verified expertise in finance and investments', cert1: 'CFA Level II', cert2: 'Financial Planning', cert3: 'Risk Management', cert4: 'Investment Analysis', cert5: 'Portfolio Management' },
         contact: { tag: 'Contact', title: 'Ready to start?', subtitle: 'Book a free 15-minute consultation. We\'ll discuss your situation and determine how I can help.', cta: 'Telegram', email: 'hello@example.com', location: 'Remote, worldwide', hours: 'Response within 24 hours', formTitle: 'Leave a request', nameLabel: 'Name', namePlaceholder: 'What\'s your name?', nameError: 'Please enter your name', contactHint: 'Please provide at least one contact method: Email, Telegram or Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Enter a valid email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Message', messagePlaceholder: 'Tell me about your goals or ask a question...', contactError: 'Please provide at least one contact method', successMessage: 'Request sent! I\'ll contact you soon.', submitBtn: 'Send request', privacyText: 'By clicking the button, you agree to the', privacyLink: 'privacy policy' },
         footer: { copyright: '© 2024 Financial Consultant. All rights reserved.', privacy: 'Privacy', terms: 'Terms' }
     },
@@ -18,6 +19,7 @@ const translations = {
         testimonials: { tag: 'Відгуки', title: 'Що кажуть клієнти', item1: { text: '"Нарешті я розумію, куди йдуть гроші і як їх примножити."', name: 'Олександр М.', role: 'IT-спеціаліст' }, item2: { text: '"Боялася інвестувати — здавалося складним. Тепер маю диверсифікований портфель."', name: 'Вікторія С.', role: 'Підприємець' }, item3: { text: '"Оптимізували податки — зекономив більше, ніж коштувала консультація."', name: 'Михайло К.', role: 'Лікар' } },
         faq: { title: 'Часті питання', q1: { q: 'З якої суми можна почати?', a: 'Почати можна з будь-якої суми. Важливіше регулярність та стратегія.' }, q2: { q: 'Чи потрібні спеціальні знання?', a: 'Ні. Я пояснюю все простою мовою.' }, q3: { q: 'Як довго триває робота?', a: 'Консультація — 1-2 години. Фінансовий план — 2-3 тижні.' }, q4: { q: 'Чи гарантуєте ви дохідність?', a: 'Ні — і ніхто не може чесно гарантувати.' }, q5: { q: 'Чи працюєте ви віддалено?', a: 'Так, 100% онлайн.' } },
         video: { tag: 'Освіта', title: 'Як працює фондовий ринок', subtitle: 'Коротке відео про базові принципи інвестування, які допоможуть вам приймати усвідомлені рішення', playText: 'Дивитись відео', duration: '3:45', feature1Title: 'Без складних термінів', feature1Desc: 'Пояснюю простою мовою', feature2Title: 'Реальні приклади', feature2Desc: 'Практика, а не теорія', feature3Title: 'Швидкий старт', feature3Desc: 'Почніть за 5 хвилин' },
+        certs: { tag: 'Кваліфікація', title: 'Сертифікати та ліцензії', subtitle: 'Підтверджена експертиза у сфері фінансів та інвестицій', cert1: 'CFA Level II', cert2: 'Фінансове планування', cert3: 'Ризик-менеджмент', cert4: 'Інвестиційний аналіз', cert5: 'Управління портфелем' },
         contact: { tag: 'Контакти', title: 'Готові почати?', subtitle: 'Запишіться на безкоштовну 15-хвилинну консультацію.', cta: 'Telegram', email: 'hello@example.com', location: 'Віддалено, весь світ', hours: 'Відповідаю протягом 24 годин', formTitle: 'Залишити заявку', nameLabel: 'Ім\'я', namePlaceholder: 'Як вас звати?', nameError: 'Будь ласка, введіть ваше ім\'я', contactHint: 'Вкажіть хоча б один спосіб зв\'язку: Email, Telegram або Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Введіть коректний email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Повідомлення', messagePlaceholder: 'Розкажіть про ваші цілі або задайте питання...', contactError: 'Вкажіть хоча б один спосіб зв\'язку', successMessage: 'Заявку надіслано! Я зв\'яжусь з вами найближчим часом.', submitBtn: 'Надіслати заявку', privacyText: 'Натискаючи кнопку, ви погоджуєтесь з', privacyLink: 'політикою конфіденційності' },
         footer: { copyright: '© 2024 Фінансовий консультант. Усі права захищено.', privacy: 'Конфіденційність', terms: 'Умови' }
     },
@@ -29,6 +31,7 @@ const translations = {
         testimonials: { tag: 'Отзывы', title: 'Что говорят клиенты', item1: { text: '"Наконец-то я понимаю, куда уходят деньги и как их приумножить. За полгода накопил первую подушку безопасности."', name: 'Александр М.', role: 'IT-специалист' }, item2: { text: '"Боялась инвестировать — казалось сложным и рискованным. Теперь у меня диверсифицированный портфель и спокойствие."', name: 'Виктория С.', role: 'Предприниматель' }, item3: { text: '"Оптимизировали налоги — сэкономил больше, чем стоила консультация. Рекомендую всем, кто ценит свои деньги."', name: 'Михаил К.', role: 'Врач' } },
         faq: { title: 'Частые вопросы', q1: { q: 'С какой суммы можно начать?', a: 'Начать можно с любой суммы — даже 10 000 рублей. Важнее регулярность и стратегия, а не размер первого взноса.' }, q2: { q: 'Нужны ли специальные знания?', a: 'Нет. Я объясняю всё простым языком и даю пошаговые инструкции, которые сможет выполнить любой.' }, q3: { q: 'Как долго длится работа?', a: 'Консультация — 1-2 часа. Финансовый план — 2-3 недели. Менторство — от 3 месяцев.' }, q4: { q: 'Гарантируете ли вы доходность?', a: 'Нет — и никто не может честно гарантировать. Я гарантирую системный подход и прозрачность.' }, q5: { q: 'Работаете ли вы удалённо?', a: 'Да, 100% работы онлайн — Zoom, Telegram, Google Docs. География не имеет значения.' } },
         video: { tag: 'Образование', title: 'Как работает фондовый рынок', subtitle: 'Короткое видео о базовых принципах инвестирования, которые помогут вам принимать осознанные решения', playText: 'Смотреть видео', duration: '3:45', feature1Title: 'Без сложных терминов', feature1Desc: 'Объясняю простым языком', feature2Title: 'Реальные примеры', feature2Desc: 'Практика, а не теория', feature3Title: 'Быстрый старт', feature3Desc: 'Начните за 5 минут' },
+        certs: { tag: 'Квалификация', title: 'Сертификаты и лицензии', subtitle: 'Подтверждённая экспертиза в области финансов и инвестиций', cert1: 'CFA Level II', cert2: 'Финансовое планирование', cert3: 'Риск-менеджмент', cert4: 'Инвестиционный анализ', cert5: 'Управление портфелем' },
         contact: { tag: 'Контакты', title: 'Готовы начать?', subtitle: 'Запишитесь на бесплатную 15-минутную консультацию. Обсудим вашу ситуацию и определим, чем я могу помочь.', cta: 'Telegram', email: 'hello@example.com', location: 'Удалённо, весь мир', hours: 'Отвечаю в течение 24 часов', formTitle: 'Оставить заявку', nameLabel: 'Имя', namePlaceholder: 'Как вас зовут?', nameError: 'Пожалуйста, введите ваше имя', contactHint: 'Укажите хотя бы один способ связи: Email, Telegram или Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Введите корректный email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Сообщение', messagePlaceholder: 'Расскажите о ваших целях или задайте вопрос...', contactError: 'Укажите хотя бы один способ связи', successMessage: 'Заявка отправлена! Я свяжусь с вами в ближайшее время.', submitBtn: 'Отправить заявку', privacyText: 'Нажимая кнопку, вы соглашаетесь с', privacyLink: 'политикой конфиденциальности' },
         footer: { copyright: '© 2024 Финансовый консультант. Все права защищены.', privacy: 'Конфиденциальность', terms: 'Условия' }
     },
@@ -40,6 +43,7 @@ const translations = {
         testimonials: { tag: 'Testimonios', title: 'Lo que dicen los clientes', item1: { text: '"Por fin entiendo a dónde va el dinero y cómo hacerlo crecer."', name: 'Alejandro M.', role: 'Especialista IT' }, item2: { text: '"Tenía miedo de invertir. Ahora tengo una cartera diversificada."', name: 'Victoria S.', role: 'Empresaria' }, item3: { text: '"Optimizamos impuestos — ahorré más de lo que costó la consulta."', name: 'Miguel K.', role: 'Médico' } },
         faq: { title: 'Preguntas frecuentes', q1: { q: '¿Cuál es la cantidad mínima para empezar?', a: 'Puedes empezar con cualquier cantidad. La consistencia y estrategia importan más.' }, q2: { q: '¿Necesito conocimientos especiales?', a: 'No. Explico todo en términos simples.' }, q3: { q: '¿Cuánto tiempo lleva?', a: 'Consulta — 1-2 horas. Plan financiero — 2-3 semanas.' }, q4: { q: '¿Garantiza rendimientos?', a: 'No — y nadie puede garantizarlo honestamente.' }, q5: { q: '¿Trabaja de forma remota?', a: 'Sí, 100% online.' } },
         video: { tag: 'Educación', title: 'Cómo funciona el mercado de valores', subtitle: 'Un video corto sobre los conceptos básicos de inversión que te ayudarán a tomar decisiones informadas', playText: 'Ver video', duration: '3:45', feature1Title: 'Sin jerga', feature1Desc: 'Explicado en términos simples', feature2Title: 'Ejemplos reales', feature2Desc: 'Práctica, no teoría', feature3Title: 'Inicio rápido', feature3Desc: 'Comienza en 5 minutos' },
+        certs: { tag: 'Calificaciones', title: 'Certificados y licencias', subtitle: 'Experiencia verificada en finanzas e inversiones', cert1: 'CFA Level II', cert2: 'Planificación financiera', cert3: 'Gestión de riesgos', cert4: 'Análisis de inversiones', cert5: 'Gestión de cartera' },
         contact: { tag: 'Contacto', title: '¿Listo para empezar?', subtitle: 'Reserva una consulta gratuita de 15 minutos.', cta: 'Telegram', email: 'hello@example.com', location: 'Remoto, mundial', hours: 'Respondo en 24 horas', formTitle: 'Dejar solicitud', nameLabel: 'Nombre', namePlaceholder: '¿Cómo te llamas?', nameError: 'Por favor, introduce tu nombre', contactHint: 'Indica al menos un método de contacto: Email, Telegram o Instagram', emailLabel: 'Email', emailPlaceholder: 'tu@email.com', emailError: 'Introduce un email válido', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'usuario', messageLabel: 'Mensaje', messagePlaceholder: 'Cuéntame sobre tus objetivos o haz una pregunta...', contactError: 'Indica al menos un método de contacto', successMessage: '¡Solicitud enviada! Me pondré en contacto pronto.', submitBtn: 'Enviar solicitud', privacyText: 'Al hacer clic, aceptas la', privacyLink: 'política de privacidad' },
         footer: { copyright: '© 2024 Consultor Financiero. Todos los derechos reservados.', privacy: 'Privacidad', terms: 'Términos' }
     }
@@ -293,6 +297,129 @@ if (stockVideo) {
         }
     }, { once: true });
 }
+
+// Review media gallery
+const reviewMedia = {
+    review1: [
+        { type: 'video', src: 'images/reviews/review1-1.mov' },
+        { type: 'video', src: 'images/reviews/review1-2.mov' }
+    ],
+    review2: [
+        { type: 'video', src: 'images/reviews/review2-1.mov' }
+    ],
+    review3: [
+        { type: 'video', src: 'images/reviews/review3-1.mov' }
+    ],
+    review5: [
+        { type: 'image', src: 'images/reviews/review5-1.png' }
+    ],
+    review6: [
+        { type: 'image', src: 'images/reviews/review6-1.png' }
+    ],
+    review7: [
+        { type: 'image', src: 'images/reviews/review7-1.png' }
+    ],
+    review8: [
+        { type: 'image', src: 'images/reviews/review8-1.png' }
+    ],
+    review9: [
+        { type: 'image', src: 'images/reviews/review9-1.png' }
+    ]
+};
+
+let currentReview = null;
+let currentMediaIndex = 0;
+
+function openReviewModal(reviewId, startIndex = 0) {
+    const media = reviewMedia[reviewId];
+    if (!media || media.length === 0) return;
+
+    currentReview = reviewId;
+    currentMediaIndex = Math.min(startIndex, media.length - 1);
+
+    const modal = document.getElementById('reviewModal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+
+    showReviewMedia();
+}
+
+function showReviewMedia() {
+    const media = reviewMedia[currentReview];
+    if (!media) return;
+
+    const item = media[currentMediaIndex];
+    const content = document.getElementById('reviewContent');
+    const counter = document.getElementById('reviewCounter');
+
+    if (item.type === 'video') {
+        content.innerHTML = `<video src="${item.src}" class="max-w-full max-h-[85vh] rounded-2xl shadow-2xl" controls autoplay></video>`;
+    } else {
+        content.innerHTML = `<img src="${item.src}" class="max-w-full max-h-[85vh] rounded-2xl shadow-2xl" alt="Review">`;
+    }
+
+    counter.textContent = `${currentMediaIndex + 1} / ${media.length}`;
+
+    // Hide/show arrows
+    document.getElementById('reviewPrev').style.display = currentMediaIndex > 0 ? 'flex' : 'none';
+    document.getElementById('reviewNext').style.display = currentMediaIndex < media.length - 1 ? 'flex' : 'none';
+}
+
+function closeReviewModal() {
+    const modal = document.getElementById('reviewModal');
+    const content = document.getElementById('reviewContent');
+
+    // Stop video if playing
+    const video = content.querySelector('video');
+    if (video) video.pause();
+
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+    content.innerHTML = '';
+}
+
+document.getElementById('reviewPrev')?.addEventListener('click', () => {
+    if (currentMediaIndex > 0) {
+        currentMediaIndex--;
+        showReviewMedia();
+    }
+});
+
+document.getElementById('reviewNext')?.addEventListener('click', () => {
+    const media = reviewMedia[currentReview];
+    if (media && currentMediaIndex < media.length - 1) {
+        currentMediaIndex++;
+        showReviewMedia();
+    }
+});
+
+document.getElementById('reviewModal')?.addEventListener('click', (e) => {
+    if (e.target.id === 'reviewModal') closeReviewModal();
+});
+
+// Certificate modal
+function openCertModal(src) {
+    const modal = document.getElementById('certModal');
+    const img = document.getElementById('certModalImg');
+    img.src = src;
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeCertModal() {
+    const modal = document.getElementById('certModal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeCertModal();
+});
 
 // Init
 updateContent();
