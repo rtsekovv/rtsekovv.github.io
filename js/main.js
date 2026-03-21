@@ -768,7 +768,7 @@ const translations = {
   },
 };
 
-let currentLang = localStorage.getItem("lang") || "ru";
+let currentLang = localStorage.getItem("lang") || "ua";
 
 function updateContent() {
   const t = translations[currentLang];
