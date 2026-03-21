@@ -1,5 +1,6 @@
 const translations = {
     en: {
+    pageTitle: "Nastasiia Invest — Wealth Management",
     nav: {
       about: "About",
       services: "Services",
@@ -130,13 +131,13 @@ const translations = {
       feature2Desc: "Practice, not theory",
       feature3Title: "Quick start",
       feature3Desc: "Start in 5 minutes",
-      motivation: "Invest in your future today",
+      motivation: "Imagine — a few steps and you're an investor",
     },
     process: {
       tag: "Process",
       title: "How we will work",
       step1Title: "Introduction",
-      step1Desc: "Free 15-minute call. We discuss your situation and goals.",
+      step1Desc: "Free consultation call. We discuss your situation and goals.",
       step2Title: "Analysis",
       step2Desc: "Deep financial audit. Finding growth points and risks.",
       step3Title: "Strategy",
@@ -155,8 +156,9 @@ const translations = {
     contact: {
       tag: "Contact",
       title: "Ready to start?",
+      connectTitle: "Get in touch",
       subtitle:
-        "Book a free 15-minute consultation. We'll discuss your situation and determine how I can help.",
+        "Book a free consultation. We'll discuss your situation and determine how I can help.",
       cta: "Telegram",
       email: "hello@example.com",
       location: "Remote, worldwide",
@@ -190,6 +192,7 @@ const translations = {
     common: { close: "Close" },
   },
   ua: {
+    pageTitle: "Nastasiia Invest — Управління капіталом",
     nav: {
       about: "Про мене",
       services: "Послуги",
@@ -318,14 +321,14 @@ const translations = {
       feature2Desc: "Практика, а не теорія",
       feature3Title: "Швидкий старт",
       feature3Desc: "Почніть за 5 хвилин",
-      motivation: "Інвестуй у своє майбутнє сьогодні",
+      motivation: "Уяви — пару кроків і ти вже інвестор",
     },
     process: {
       tag: "Процес",
       title: "Як ми будемо працювати",
       step1Title: "Знайомство",
       step1Desc:
-        "Безкоштовний дзвінок 15 хвилин. Обговорюємо вашу ситуацію та цілі.",
+        "Безкоштовна консультація. Обговорюємо вашу ситуацію та цілі.",
       step2Title: "Аналіз",
       step2Desc:
         "Глибокий аудит фінансів. Знаходимо точки зростання та ризики.",
@@ -345,7 +348,8 @@ const translations = {
     contact: {
       tag: "Контакти",
       title: "Готові почати?",
-      subtitle: "Запишіться на безкоштовну 15-хвилинну консультацію.",
+      connectTitle: "Зв'яжіться зі мною",
+      subtitle: "Запишіться на безкоштовну консультацію.",
       cta: "Telegram",
       email: "hello@example.com",
       location: "Віддалено, весь світ",
@@ -371,7 +375,7 @@ const translations = {
       privacyLink: "політикою конфіденційності",
     },
     footer: {
-      logo: "Капітал",
+      logo: "Nastasiia Invest",
       copyright: "© 2024 Фінансовий консультант. Усі права захищено.",
       privacy: "Конфіденційність",
       terms: "Умови",
@@ -379,6 +383,7 @@ const translations = {
     common: { close: "Закрити" },
   },
   ru: {
+    pageTitle: "Nastasiia Invest — Управление капиталом",
     nav: {
       about: "Обо мне",
       services: "Услуги",
@@ -510,13 +515,13 @@ const translations = {
       feature2Desc: "Практика, а не теория",
       feature3Title: "Быстрый старт",
       feature3Desc: "Начните за 5 минут",
-      motivation: "Инвестируй в своё будущее сегодня",
+      motivation: "Представь — пару шагов и ты уже инвестор",
     },
     process: {
       tag: "Процесс",
       title: "Как мы будем работать",
       step1Title: "Знакомство",
-      step1Desc: "Бесплатный звонок 15 минут. Обсуждаем вашу ситуацию и цели.",
+      step1Desc: "Бесплатная консультация. Обсуждаем вашу ситуацию и цели.",
       step2Title: "Анализ",
       step2Desc: "Глубокий аудит финансов. Находим точки роста и риски.",
       step3Title: "Стратегия",
@@ -535,8 +540,9 @@ const translations = {
     contact: {
       tag: "Контакты",
       title: "Готовы начать?",
+      connectTitle: "Свяжитесь со мной",
       subtitle:
-        "Запишитесь на бесплатную 15-минутную консультацию. Обсудим вашу ситуацию и определим, чем я могу помочь.",
+        "Запишитесь на бесплатную консультацию. Обсудим вашу ситуацию и определим, чем я могу помочь.",
       cta: "Telegram",
       email: "hello@example.com",
       location: "Удалённо, весь мир",
@@ -562,7 +568,7 @@ const translations = {
       privacyLink: "политикой конфиденциальности",
     },
     footer: {
-      logo: "Капитал",
+      logo: "Nastasiia Invest",
       copyright: "© 2024 Финансовый консультант. Все права защищены.",
       privacy: "Конфиденциальность",
       terms: "Условия",
@@ -570,6 +576,7 @@ const translations = {
     common: { close: "Закрыть" },
   },
   es: {
+    pageTitle: "Nastasiia Invest — Gestión de patrimonio",
     nav: {
       about: "Sobre mí",
       services: "Servicios",
@@ -698,14 +705,14 @@ const translations = {
       feature2Desc: "Práctica, no teoría",
       feature3Title: "Inicio rápido",
       feature3Desc: "Comienza en 5 minutos",
-      motivation: "Invierte en tu futuro hoy",
+      motivation: "Imagina — unos pasos y ya eres inversor",
     },
     process: {
       tag: "Proceso",
       title: "Cómo trabajaremos",
       step1Title: "Introducción",
       step1Desc:
-        "Llamada gratuita de 15 minutos. Discutimos tu situación y objetivos.",
+        "Consulta gratuita. Discutimos tu situación y objetivos.",
       step2Title: "Análisis",
       step2Desc:
         "Auditoría financiera profunda. Encontramos puntos de crecimiento y riesgos.",
@@ -725,7 +732,8 @@ const translations = {
     contact: {
       tag: "Contacto",
       title: "¿Listo para empezar?",
-      subtitle: "Reserva una consulta gratuita de 15 minutos.",
+      connectTitle: "Contáctame",
+      subtitle: "Reserva una consulta gratuita.",
       cta: "Telegram",
       email: "hello@example.com",
       location: "Remoto, mundial",
@@ -777,6 +785,8 @@ function updateContent() {
     keys.forEach((k) => (value = value?.[k]));
     if (value) el.placeholder = value;
   });
+  // Update page title
+  if (t.pageTitle) document.title = t.pageTitle;
   document.getElementById("currentLang").textContent =
     currentLang.toUpperCase();
   document.querySelectorAll(".lang-option").forEach((btn) => {
@@ -970,21 +980,38 @@ if (contactForm) {
       return;
     }
 
-    // Simulate form submission (replace with actual API call)
-    setTimeout(() => {
+    // Submit to Web3Forms
+    const formData = new FormData(contactForm);
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
       submitBtn.disabled = false;
       submitBtn.classList.remove("loading");
-      formSuccess.classList.remove("hidden");
-      contactForm.reset();
-      [nameInput, emailInput, telegramInput, instagramInput].forEach(
-        (input) => {
-          input.classList.remove("success", "error");
-        },
-      );
-
-      // Hide success after 5 seconds
-      setTimeout(() => formSuccess.classList.add("hidden"), 5000);
-    }, 1500);
+      if (data.success) {
+        formSuccess.classList.remove("hidden");
+        contactForm.reset();
+        [nameInput, emailInput, telegramInput, instagramInput].forEach(
+          (input) => {
+            input.classList.remove("success", "error");
+          },
+        );
+        // Hide success message after 5 seconds
+        setTimeout(() => formSuccess.classList.add("hidden"), 5000);
+      } else {
+        console.error("Form submission error:", data);
+        alert("Ошибка отправки. Попробуйте позже.");
+      }
+    })
+    .catch(error => {
+      submitBtn.disabled = false;
+      submitBtn.classList.remove("loading");
+      console.error("Form submission error:", error);
+      alert("Ошибка отправки. Попробуйте позже.");
+    });
   });
 }
 
