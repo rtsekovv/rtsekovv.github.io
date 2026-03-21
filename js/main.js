@@ -6,6 +6,7 @@ const translations = {
         services: { tag: 'Services', title: 'What I offer', subtitle: 'Comprehensive approach to personal finance management', item1: { title: 'Financial Audit', desc: 'Complete analysis of your situation: income, expenses, assets, liabilities. Finding growth points.' }, item2: { title: 'Financial Plan', desc: 'Personal strategy for 1-5 years with specific steps and tools.' }, item3: { title: 'Investment Portfolio', desc: 'Selecting instruments for your goals and risk profile. ETFs, bonds, stocks.' }, item4: { title: 'Insurance Protection', desc: 'Risk analysis and insurance product selection to protect capital and family.' }, item5: { title: 'Tax Optimization', desc: 'Legal ways to reduce tax burden. Tax-advantaged accounts, deductions, structuring.' }, item6: { title: 'Mentorship', desc: 'Regular support: monthly calls, Q&A, plan adjustments.' } },
         testimonials: { tag: 'Reviews', title: 'What clients say', item1: { text: '"Finally I understand where money goes and how to grow it. Saved my first emergency fund in 6 months."', name: 'Alexander M.', role: 'IT Specialist' }, item2: { text: '"Was afraid to invest — seemed complex and risky. Now I have a diversified portfolio and peace of mind."', name: 'Victoria S.', role: 'Entrepreneur' }, item3: { text: '"Optimized taxes — saved more than the consultation cost. Recommend to everyone who values their money."', name: 'Michael K.', role: 'Doctor' } },
         faq: { title: 'FAQ', q1: { q: 'What\'s the minimum amount to start?', a: 'You can start with any amount — even $100. Consistency and strategy matter more than the first deposit size.' }, q2: { q: 'Do I need special knowledge?', a: 'No. I explain everything in simple terms and give step-by-step instructions anyone can follow.' }, q3: { q: 'How long does it take?', a: 'Consultation — 1-2 hours. Financial plan — 2-3 weeks. Mentorship — from 3 months.' }, q4: { q: 'Do you guarantee returns?', a: 'No — and no one can honestly guarantee. I guarantee a systematic approach and transparency.' }, q5: { q: 'Do you work remotely?', a: 'Yes, 100% online — Zoom, Telegram, Google Docs. Geography doesn\'t matter.' } },
+        video: { tag: 'Education', title: 'How the stock market works', subtitle: 'A short video about the basics of investing that will help you make informed decisions', playText: 'Watch video', duration: '3:45', feature1Title: 'No jargon', feature1Desc: 'Explained in simple terms', feature2Title: 'Real examples', feature2Desc: 'Practice, not theory', feature3Title: 'Quick start', feature3Desc: 'Start in 5 minutes' },
         contact: { tag: 'Contact', title: 'Ready to start?', subtitle: 'Book a free 15-minute consultation. We\'ll discuss your situation and determine how I can help.', cta: 'Telegram', email: 'hello@example.com', location: 'Remote, worldwide', hours: 'Response within 24 hours', formTitle: 'Leave a request', nameLabel: 'Name', namePlaceholder: 'What\'s your name?', nameError: 'Please enter your name', contactHint: 'Please provide at least one contact method: Email, Telegram or Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Enter a valid email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Message', messagePlaceholder: 'Tell me about your goals or ask a question...', contactError: 'Please provide at least one contact method', successMessage: 'Request sent! I\'ll contact you soon.', submitBtn: 'Send request', privacyText: 'By clicking the button, you agree to the', privacyLink: 'privacy policy' },
         footer: { copyright: '© 2024 Financial Consultant. All rights reserved.', privacy: 'Privacy', terms: 'Terms' }
     },
@@ -16,6 +17,7 @@ const translations = {
         services: { tag: 'Послуги', title: 'Що я пропоную', subtitle: 'Комплексний підхід до управління особистими фінансами', item1: { title: 'Фінансовий аудит', desc: 'Повний аналіз поточної ситуації: доходи, витрати, активи, зобов\'язання.' }, item2: { title: 'Фінансовий план', desc: 'Персональна стратегія на 1-5 років з конкретними кроками.' }, item3: { title: 'Інвестиційний портфель', desc: 'Підбір інструментів під ваші цілі та ризик-профіль.' }, item4: { title: 'Страховий захист', desc: 'Аналіз ризиків та підбір страхових продуктів.' }, item5: { title: 'Податкова оптимізація', desc: 'Легальні способи знизити податкове навантаження.' }, item6: { title: 'Менторство', desc: 'Регулярний супровід: щомісячні дзвінки, відповіді на питання.' } },
         testimonials: { tag: 'Відгуки', title: 'Що кажуть клієнти', item1: { text: '"Нарешті я розумію, куди йдуть гроші і як їх примножити."', name: 'Олександр М.', role: 'IT-спеціаліст' }, item2: { text: '"Боялася інвестувати — здавалося складним. Тепер маю диверсифікований портфель."', name: 'Вікторія С.', role: 'Підприємець' }, item3: { text: '"Оптимізували податки — зекономив більше, ніж коштувала консультація."', name: 'Михайло К.', role: 'Лікар' } },
         faq: { title: 'Часті питання', q1: { q: 'З якої суми можна почати?', a: 'Почати можна з будь-якої суми. Важливіше регулярність та стратегія.' }, q2: { q: 'Чи потрібні спеціальні знання?', a: 'Ні. Я пояснюю все простою мовою.' }, q3: { q: 'Як довго триває робота?', a: 'Консультація — 1-2 години. Фінансовий план — 2-3 тижні.' }, q4: { q: 'Чи гарантуєте ви дохідність?', a: 'Ні — і ніхто не може чесно гарантувати.' }, q5: { q: 'Чи працюєте ви віддалено?', a: 'Так, 100% онлайн.' } },
+        video: { tag: 'Освіта', title: 'Як працює фондовий ринок', subtitle: 'Коротке відео про базові принципи інвестування, які допоможуть вам приймати усвідомлені рішення', playText: 'Дивитись відео', duration: '3:45', feature1Title: 'Без складних термінів', feature1Desc: 'Пояснюю простою мовою', feature2Title: 'Реальні приклади', feature2Desc: 'Практика, а не теорія', feature3Title: 'Швидкий старт', feature3Desc: 'Почніть за 5 хвилин' },
         contact: { tag: 'Контакти', title: 'Готові почати?', subtitle: 'Запишіться на безкоштовну 15-хвилинну консультацію.', cta: 'Telegram', email: 'hello@example.com', location: 'Віддалено, весь світ', hours: 'Відповідаю протягом 24 годин', formTitle: 'Залишити заявку', nameLabel: 'Ім\'я', namePlaceholder: 'Як вас звати?', nameError: 'Будь ласка, введіть ваше ім\'я', contactHint: 'Вкажіть хоча б один спосіб зв\'язку: Email, Telegram або Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Введіть коректний email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Повідомлення', messagePlaceholder: 'Розкажіть про ваші цілі або задайте питання...', contactError: 'Вкажіть хоча б один спосіб зв\'язку', successMessage: 'Заявку надіслано! Я зв\'яжусь з вами найближчим часом.', submitBtn: 'Надіслати заявку', privacyText: 'Натискаючи кнопку, ви погоджуєтесь з', privacyLink: 'політикою конфіденційності' },
         footer: { copyright: '© 2024 Фінансовий консультант. Усі права захищено.', privacy: 'Конфіденційність', terms: 'Умови' }
     },
@@ -26,6 +28,7 @@ const translations = {
         services: { tag: 'Услуги', title: 'Что я предлагаю', subtitle: 'Комплексный подход к управлению личными финансами', item1: { title: 'Финансовый аудит', desc: 'Полный анализ текущей ситуации: доходы, расходы, активы, обязательства. Находим точки роста.' }, item2: { title: 'Финансовый план', desc: 'Персональная стратегия на 1-5 лет с конкретными шагами и инструментами.' }, item3: { title: 'Инвестиционный портфель', desc: 'Подбор инструментов под ваши цели и риск-профиль. ETF, облигации, акции.' }, item4: { title: 'Страховая защита', desc: 'Анализ рисков и подбор страховых продуктов для защиты капитала и семьи.' }, item5: { title: 'Налоговая оптимизация', desc: 'Легальные способы снизить налоговую нагрузку. ИИС, вычеты, структурирование.' }, item6: { title: 'Менторство', desc: 'Регулярное сопровождение: ежемесячные созвоны, ответы на вопросы, корректировка плана.' } },
         testimonials: { tag: 'Отзывы', title: 'Что говорят клиенты', item1: { text: '"Наконец-то я понимаю, куда уходят деньги и как их приумножить. За полгода накопил первую подушку безопасности."', name: 'Александр М.', role: 'IT-специалист' }, item2: { text: '"Боялась инвестировать — казалось сложным и рискованным. Теперь у меня диверсифицированный портфель и спокойствие."', name: 'Виктория С.', role: 'Предприниматель' }, item3: { text: '"Оптимизировали налоги — сэкономил больше, чем стоила консультация. Рекомендую всем, кто ценит свои деньги."', name: 'Михаил К.', role: 'Врач' } },
         faq: { title: 'Частые вопросы', q1: { q: 'С какой суммы можно начать?', a: 'Начать можно с любой суммы — даже 10 000 рублей. Важнее регулярность и стратегия, а не размер первого взноса.' }, q2: { q: 'Нужны ли специальные знания?', a: 'Нет. Я объясняю всё простым языком и даю пошаговые инструкции, которые сможет выполнить любой.' }, q3: { q: 'Как долго длится работа?', a: 'Консультация — 1-2 часа. Финансовый план — 2-3 недели. Менторство — от 3 месяцев.' }, q4: { q: 'Гарантируете ли вы доходность?', a: 'Нет — и никто не может честно гарантировать. Я гарантирую системный подход и прозрачность.' }, q5: { q: 'Работаете ли вы удалённо?', a: 'Да, 100% работы онлайн — Zoom, Telegram, Google Docs. География не имеет значения.' } },
+        video: { tag: 'Образование', title: 'Как работает фондовый рынок', subtitle: 'Короткое видео о базовых принципах инвестирования, которые помогут вам принимать осознанные решения', playText: 'Смотреть видео', duration: '3:45', feature1Title: 'Без сложных терминов', feature1Desc: 'Объясняю простым языком', feature2Title: 'Реальные примеры', feature2Desc: 'Практика, а не теория', feature3Title: 'Быстрый старт', feature3Desc: 'Начните за 5 минут' },
         contact: { tag: 'Контакты', title: 'Готовы начать?', subtitle: 'Запишитесь на бесплатную 15-минутную консультацию. Обсудим вашу ситуацию и определим, чем я могу помочь.', cta: 'Telegram', email: 'hello@example.com', location: 'Удалённо, весь мир', hours: 'Отвечаю в течение 24 часов', formTitle: 'Оставить заявку', nameLabel: 'Имя', namePlaceholder: 'Как вас зовут?', nameError: 'Пожалуйста, введите ваше имя', contactHint: 'Укажите хотя бы один способ связи: Email, Telegram или Instagram', emailLabel: 'Email', emailPlaceholder: 'your@email.com', emailError: 'Введите корректный email', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'username', messageLabel: 'Сообщение', messagePlaceholder: 'Расскажите о ваших целях или задайте вопрос...', contactError: 'Укажите хотя бы один способ связи', successMessage: 'Заявка отправлена! Я свяжусь с вами в ближайшее время.', submitBtn: 'Отправить заявку', privacyText: 'Нажимая кнопку, вы соглашаетесь с', privacyLink: 'политикой конфиденциальности' },
         footer: { copyright: '© 2024 Финансовый консультант. Все права защищены.', privacy: 'Конфиденциальность', terms: 'Условия' }
     },
@@ -36,6 +39,7 @@ const translations = {
         services: { tag: 'Servicios', title: 'Lo que ofrezco', subtitle: 'Enfoque integral para la gestión de finanzas personales', item1: { title: 'Auditoría Financiera', desc: 'Análisis completo de tu situación: ingresos, gastos, activos, pasivos.' }, item2: { title: 'Plan Financiero', desc: 'Estrategia personal para 1-5 años con pasos concretos.' }, item3: { title: 'Cartera de Inversión', desc: 'Selección de instrumentos según tus objetivos y perfil de riesgo.' }, item4: { title: 'Protección de Seguros', desc: 'Análisis de riesgos y selección de productos de seguros.' }, item5: { title: 'Optimización Fiscal', desc: 'Formas legales de reducir la carga fiscal.' }, item6: { title: 'Mentoría', desc: 'Acompañamiento regular: llamadas mensuales, respuestas a preguntas.' } },
         testimonials: { tag: 'Testimonios', title: 'Lo que dicen los clientes', item1: { text: '"Por fin entiendo a dónde va el dinero y cómo hacerlo crecer."', name: 'Alejandro M.', role: 'Especialista IT' }, item2: { text: '"Tenía miedo de invertir. Ahora tengo una cartera diversificada."', name: 'Victoria S.', role: 'Empresaria' }, item3: { text: '"Optimizamos impuestos — ahorré más de lo que costó la consulta."', name: 'Miguel K.', role: 'Médico' } },
         faq: { title: 'Preguntas frecuentes', q1: { q: '¿Cuál es la cantidad mínima para empezar?', a: 'Puedes empezar con cualquier cantidad. La consistencia y estrategia importan más.' }, q2: { q: '¿Necesito conocimientos especiales?', a: 'No. Explico todo en términos simples.' }, q3: { q: '¿Cuánto tiempo lleva?', a: 'Consulta — 1-2 horas. Plan financiero — 2-3 semanas.' }, q4: { q: '¿Garantiza rendimientos?', a: 'No — y nadie puede garantizarlo honestamente.' }, q5: { q: '¿Trabaja de forma remota?', a: 'Sí, 100% online.' } },
+        video: { tag: 'Educación', title: 'Cómo funciona el mercado de valores', subtitle: 'Un video corto sobre los conceptos básicos de inversión que te ayudarán a tomar decisiones informadas', playText: 'Ver video', duration: '3:45', feature1Title: 'Sin jerga', feature1Desc: 'Explicado en términos simples', feature2Title: 'Ejemplos reales', feature2Desc: 'Práctica, no teoría', feature3Title: 'Inicio rápido', feature3Desc: 'Comienza en 5 minutos' },
         contact: { tag: 'Contacto', title: '¿Listo para empezar?', subtitle: 'Reserva una consulta gratuita de 15 minutos.', cta: 'Telegram', email: 'hello@example.com', location: 'Remoto, mundial', hours: 'Respondo en 24 horas', formTitle: 'Dejar solicitud', nameLabel: 'Nombre', namePlaceholder: '¿Cómo te llamas?', nameError: 'Por favor, introduce tu nombre', contactHint: 'Indica al menos un método de contacto: Email, Telegram o Instagram', emailLabel: 'Email', emailPlaceholder: 'tu@email.com', emailError: 'Introduce un email válido', telegramLabel: 'Telegram', instagramLabel: 'Instagram', usernamePlaceholder: 'usuario', messageLabel: 'Mensaje', messagePlaceholder: 'Cuéntame sobre tus objetivos o haz una pregunta...', contactError: 'Indica al menos un método de contacto', successMessage: '¡Solicitud enviada! Me pondré en contacto pronto.', submitBtn: 'Enviar solicitud', privacyText: 'Al hacer clic, aceptas la', privacyLink: 'política de privacidad' },
         footer: { copyright: '© 2024 Consultor Financiero. Todos los derechos reservados.', privacy: 'Privacidad', terms: 'Términos' }
     }
@@ -248,6 +252,46 @@ if (contactForm) {
             setTimeout(() => formSuccess.classList.add('hidden'), 5000);
         }, 1500);
     });
+}
+
+// Video autoplay on scroll
+const stockVideo = document.getElementById('stockVideo');
+const videoSection = stockVideo?.closest('.video-section');
+
+if (stockVideo) {
+    // Ensure video is muted (required for autoplay)
+    stockVideo.muted = true;
+
+    // Try to play immediately
+    stockVideo.play().catch(() => {});
+
+    // Also play on scroll into view
+    if (videoSection) {
+        const videoObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    stockVideo.play().catch(() => {});
+                } else {
+                    stockVideo.pause();
+                }
+            });
+        }, { threshold: 0 });
+
+        videoObserver.observe(videoSection);
+    }
+
+    // Fallback: play on any user interaction
+    document.addEventListener('click', () => {
+        if (stockVideo.paused) {
+            stockVideo.play().catch(() => {});
+        }
+    }, { once: true });
+
+    document.addEventListener('scroll', () => {
+        if (stockVideo.paused) {
+            stockVideo.play().catch(() => {});
+        }
+    }, { once: true });
 }
 
 // Init
