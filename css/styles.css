@@ -269,11 +269,13 @@ a, button, [onclick], .cursor-pointer, input, textarea, select {
 /* Process cards */
 .process-card {
     position: relative;
-    padding: 2rem;
+    padding: 2.5rem 2rem 2rem;
+    margin-top: 20px;
     background: linear-gradient(180deg, rgba(24, 35, 58, 0.6) 0%, rgba(19, 28, 49, 0.4) 100%);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 1.5rem;
     transition: all 0.4s ease;
+    text-align: center;
 }
 .process-card:hover {
     transform: translateY(-8px);
@@ -281,22 +283,21 @@ a, button, [onclick], .cursor-pointer, input, textarea, select {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .process-number {
-    display: inline-block;
-    font-size: 0.875rem;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
     font-weight: 700;
-    color: #8B5CFF;
-    margin-bottom: 0.75rem;
-}
-.process-label {
-    display: inline-block;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 0.75rem;
-}
-.process-label::before {
-    content: " — ";
-    color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    background: linear-gradient(135deg, #8B5CFF 0%, #6B3FD4 100%);
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(139, 92, 255, 0.4);
 }
 .process-icon {
     width: 48px;
