@@ -387,6 +387,15 @@ a, button, [onclick], .cursor-pointer, input, textarea, select {
 }
 .faq-answer-new { transition: all 0.3s ease; }
 
+/* Masonry grid for reviews */
+.break-inside-avoid {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+}
+
 /* Contact card */
 .contact-card {
     background: linear-gradient(180deg, rgba(24, 35, 58, 0.8) 0%, rgba(19, 28, 49, 0.9) 100%);

@@ -1137,6 +1137,8 @@ const reviewMedia = {
   review11: [{ type: "image", src: "images/reviews/review11-1.jpg" }],
   review12: [{ type: "image", src: "images/reviews/review12-1.jpg" }],
   review13: [{ type: "image", src: "images/reviews/review13-1.jpg" }],
+  review14: [{ type: "image", src: "images/reviews/review14-1.png" }],
+  review15: [{ type: "image", src: "images/reviews/review15-1.png" }],
 };
 
 let currentReview = null;
