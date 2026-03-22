@@ -46,31 +46,26 @@ const translations = {
     services: {
       tag: "Services",
       title: "What I offer",
-      subtitle: "Comprehensive approach to personal finance management",
-      learnMore: "Learn more",
       item1: {
-        title: "Financial Audit",
-        desc: "Complete analysis of your situation: income, expenses, assets, liabilities. Finding growth points.",
+        title: "Portfolio Formation",
+        desc: "You have savings, but the money just sits idle. I analyze your situation and form a balanced portfolio for your goals. You get a clear plan that immediately starts working for your capital growth.",
       },
       item2: {
-        title: "Financial Plan",
-        desc: "Personal strategy for 1-5 years with specific steps and tools.",
+        title: "Individual Mentorship",
+        desc: "You want to invest but don't know where to start. We go through the entire journey together: from basics to portfolio building. You get not just a ready plan, but a skill that stays with you for life.",
       },
       item3: {
-        title: "Investment Portfolio",
-        desc: "Selecting instruments for your goals and risk profile. ETFs, bonds, stocks.",
+        title: "Annual Support",
+        desc: "You have a portfolio, but the market changes. Throughout the year I'm beside you: analyzing your decisions, helping adapt strategy and giving feedback. Your capital grows thanks to a system, not luck.",
       },
       item4: {
-        title: "Insurance Protection",
-        desc: "Risk analysis and insurance product selection to protect capital and family.",
+        title: "Consultation",
+        desc: "You have a specific question that's bothering you. One meeting — and you get a clear direction and specific recommendations for your situation. Instead of weeks of doubt — clarity in one hour.",
       },
       item5: {
-        title: "Tax Optimization",
-        desc: "Legal ways to reduce tax burden. Tax-advantaged accounts, deductions, structuring.",
-      },
-      item6: {
-        title: "Mentorship",
-        desc: "Regular support: monthly calls, Q&A, plan adjustments.",
+        title: "Telegram Community",
+        desc: "You invest, but do it alone. In the community — market analysis and a community of people moving in the same direction. You get not just information, but an environment that supports your growth.",
+        badge: "Soon",
       },
     },
     testimonials: {
@@ -257,31 +252,26 @@ const translations = {
     services: {
       tag: "Послуги",
       title: "Що я пропоную",
-      subtitle: "Комплексний підхід до управління особистими фінансами",
-      learnMore: "Детальніше",
       item1: {
-        title: "Фінансовий аудит",
-        desc: "Повний аналіз поточної ситуації: доходи, витрати, активи, зобов'язання.",
+        title: "Формування портфеля",
+        desc: "Ви маєте накопичення, але гроші просто лежать без руху. Я аналізую вашу ситуацію і формую збалансований портфель під ваші цілі. Ви отримуєте чіткий план, що одразу починає працювати на зростання вашого капіталу.",
       },
       item2: {
-        title: "Фінансовий план",
-        desc: "Персональна стратегія на 1-5 років з конкретними кроками.",
+        title: "Індивідуальне менторство",
+        desc: "Ви хочете інвестувати, але не знаєте з чого почати. Ми проходимо весь шлях разом: від основ до побудови портфеля. На виході — не лише готовий план, а й навичка, яка залишиться з вами на все життя.",
       },
       item3: {
-        title: "Інвестиційний портфель",
-        desc: "Підбір інструментів під ваші цілі та ризик-профіль.",
+        title: "Річний супровід",
+        desc: "Портфель у вас є, але ринок змінюється. Протягом року я поруч: аналізую ваші рішення, допомагаю адаптувати стратегію і даю зворотний зв'язок. Ваш капітал росте завдяки системі, а не удачі.",
       },
       item4: {
-        title: "Страховий захист",
-        desc: "Аналіз ризиків та підбір страхових продуктів.",
+        title: "Консультація",
+        desc: "У вас є конкретне питання, яке не дає спокою. Одна зустріч — і ви отримуєте чіткий напрямок та конкретні рекомендації під вашу ситуацію. Замість тижнів сумнівів — ясність за одну годину.",
       },
       item5: {
-        title: "Податкова оптимізація",
-        desc: "Легальні способи знизити податкове навантаження.",
-      },
-      item6: {
-        title: "Менторство",
-        desc: "Регулярний супровід: щомісячні дзвінки, відповіді на питання.",
+        title: "Telegram-комʼюніті",
+        desc: "Ви інвестуєте, але робите це на самоті. В комʼюніті — розбори ринку та спільнота людей, які рухаються в одному напрямку. Ви отримуєте не лише інформацію, а й середовище, яке підтримує ваше зростання.",
+        badge: "Скоро",
       },
     },
     testimonials: {
@@ -467,31 +457,26 @@ const translations = {
     services: {
       tag: "Услуги",
       title: "Что я предлагаю",
-      subtitle: "Комплексный подход к управлению личными финансами",
-      learnMore: "Подробнее",
       item1: {
-        title: "Финансовый аудит",
-        desc: "Полный анализ текущей ситуации: доходы, расходы, активы, обязательства. Находим точки роста.",
+        title: "Формирование портфеля",
+        desc: "У вас есть накопления, но деньги просто лежат без движения. Я анализирую вашу ситуацию и формирую сбалансированный портфель под ваши цели. Вы получаете чёткий план, который сразу начинает работать на рост вашего капитала.",
       },
       item2: {
-        title: "Финансовый план",
-        desc: "Персональная стратегия на 1-5 лет с конкретными шагами и инструментами.",
+        title: "Индивидуальное менторство",
+        desc: "Вы хотите инвестировать, но не знаете с чего начать. Мы проходим весь путь вместе: от основ до построения портфеля. На выходе — не только готовый план, но и навык, который останется с вами на всю жизнь.",
       },
       item3: {
-        title: "Инвестиционный портфель",
-        desc: "Подбор инструментов под ваши цели и риск-профиль. ETF, облигации, акции.",
+        title: "Годовое сопровождение",
+        desc: "Портфель у вас есть, но рынок меняется. В течение года я рядом: анализирую ваши решения, помогаю адаптировать стратегию и даю обратную связь. Ваш капитал растёт благодаря системе, а не удаче.",
       },
       item4: {
-        title: "Страховая защита",
-        desc: "Анализ рисков и подбор страховых продуктов для защиты капитала и семьи.",
+        title: "Консультация",
+        desc: "У вас есть конкретный вопрос, который не даёт покоя. Одна встреча — и вы получаете чёткое направление и конкретные рекомендации под вашу ситуацию. Вместо недель сомнений — ясность за один час.",
       },
       item5: {
-        title: "Налоговая оптимизация",
-        desc: "Легальные способы снизить налоговую нагрузку. ИИС, вычеты, структурирование.",
-      },
-      item6: {
-        title: "Менторство",
-        desc: "Регулярное сопровождение: ежемесячные созвоны, ответы на вопросы, корректировка плана.",
+        title: "Telegram-сообщество",
+        desc: "Вы инвестируете, но делаете это в одиночку. В сообществе — разборы рынка и люди, которые движутся в одном направлении. Вы получаете не только информацию, но и среду, которая поддерживает ваш рост.",
+        badge: "Скоро",
       },
     },
     testimonials: {
@@ -678,31 +663,26 @@ const translations = {
     services: {
       tag: "Servicios",
       title: "Lo que ofrezco",
-      subtitle: "Enfoque integral para la gestión de finanzas personales",
-      learnMore: "Más detalles",
       item1: {
-        title: "Auditoría Financiera",
-        desc: "Análisis completo de tu situación: ingresos, gastos, activos, pasivos.",
+        title: "Formación de Cartera",
+        desc: "Tienes ahorros, pero el dinero simplemente está sin movimiento. Analizo tu situación y formo una cartera equilibrada para tus objetivos. Obtienes un plan claro que inmediatamente comienza a trabajar para el crecimiento de tu capital.",
       },
       item2: {
-        title: "Plan Financiero",
-        desc: "Estrategia personal para 1-5 años con pasos concretos.",
+        title: "Mentoría Individual",
+        desc: "Quieres invertir pero no sabes por dónde empezar. Recorremos todo el camino juntos: desde lo básico hasta la construcción del portafolio. Obtienes no solo un plan listo, sino una habilidad que permanece contigo de por vida.",
       },
       item3: {
-        title: "Cartera de Inversión",
-        desc: "Selección de instrumentos según tus objetivos y perfil de riesgo.",
+        title: "Acompañamiento Anual",
+        desc: "Tienes una cartera, pero el mercado cambia. Durante el año estoy a tu lado: analizo tus decisiones, ayudo a adaptar la estrategia y doy retroalimentación. Tu capital crece gracias a un sistema, no a la suerte.",
       },
       item4: {
-        title: "Protección de Seguros",
-        desc: "Análisis de riesgos y selección de productos de seguros.",
+        title: "Consulta",
+        desc: "Tienes una pregunta específica que te inquieta. Una reunión — y obtienes una dirección clara y recomendaciones concretas para tu situación. En lugar de semanas de dudas — claridad en una hora.",
       },
       item5: {
-        title: "Optimización Fiscal",
-        desc: "Formas legales de reducir la carga fiscal.",
-      },
-      item6: {
-        title: "Mentoría",
-        desc: "Acompañamiento regular: llamadas mensuales, respuestas a preguntas.",
+        title: "Comunidad Telegram",
+        desc: "Inviertes, pero lo haces solo. En la comunidad — análisis de mercado y personas que se mueven en la misma dirección. Obtienes no solo información, sino un entorno que apoya tu crecimiento.",
+        badge: "Pronto",
       },
     },
     testimonials: {
