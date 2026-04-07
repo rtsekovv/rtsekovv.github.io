@@ -24,7 +24,7 @@ const translations = {
       floatCard1: "Sell order",
       floatCard1Amount: "+$1,450",
       floatCard2: "Returns",
-      floatCard2Amount: "+18.7%",
+      floatCard2Amount: "+24%",
       floatCard2Period: "this year",
       portfolioGrowth: "Portfolio growth",
       period3years: "3 years",
@@ -36,8 +36,8 @@ const translations = {
       title: "Bought my first asset at 16, still investing and getting results",
       p1: 'I don\'t sell "magic" investments. I help you understand finances, build a clear system, and make conscious decisions.',
       p2: 'My approach balances capital protection with reasonable growth. No aggressive schemes, no "10x in a month" promises.',
-      cert1: "+24% p.a.",
-      cert2: "150+ clients",
+      cert1: "+24% this year",
+      cert2: "100+ happy clients",
       cert3: "5 years exp",
       statClients: "clients",
       statManaged: "under management",
@@ -229,7 +229,7 @@ const translations = {
       floatCard1: "Ордер на продаж",
       floatCard1Amount: "+$1,450",
       floatCard2: "Дохідність",
-      floatCard2Amount: "+18.7%",
+      floatCard2Amount: "+24%",
       floatCard2Period: "цього року",
       portfolioGrowth: "Зростання портфеля",
       period3years: "За 3 роки",
@@ -242,11 +242,11 @@ const translations = {
         "В 16 років купила свій перший актив, досі інвестую та отримую результат",
       p1: "Я не продаю «чарівні» інвестиції. Я допомагаю розібратися у фінансах, побудувати зрозумілу систему та приймати рішення усвідомлено.",
       p2: "Мій підхід — баланс між захистом капіталу та розумним зростанням. Без агресивних схем, без обіцянок «х10 за місяць».",
-      cert1: "+24% річних",
-      cert2: "150+ клієнтів",
+      cert1: "+24% цього року",
+      cert2: "100+ задоволених клієнтів",
       cert3: "5 років досвіду",
-      statClients: "клієнтів",
-      statManaged: "в управлінні",
+      statClients: "задоволених клієнтів",
+      statManaged: "під управлінням",
       statRetention: "залишаються",
     },
     services: {
@@ -434,7 +434,7 @@ const translations = {
       floatCard1: "Ордер на продажу",
       floatCard1Amount: "+$1,450",
       floatCard2: "Доходность",
-      floatCard2Amount: "+18.7%",
+      floatCard2Amount: "+24%",
       floatCard2Period: "в этом году",
       portfolioGrowth: "Рост портфеля",
       period3years: "За 3 года",
@@ -447,11 +447,11 @@ const translations = {
         "В 16 лет купила свой первый актив, до сих пор инвестирую и получаю результат",
       p1: "Я не продаю «волшебные» инвестиции. Я помогаю разобраться в финансах, построить понятную систему и принимать решения осознанно.",
       p2: "Мой подход — это баланс между защитой капитала и разумным ростом. Без агрессивных схем, без обещаний «х10 за месяц».",
-      cert1: "+24% годовых",
-      cert2: "150+ клиентов",
+      cert1: "+24% в этом году",
+      cert2: "100+ довольных клиентов",
       cert3: "5 лет опыта",
-      statClients: "клиентов",
-      statManaged: "в управлении",
+      statClients: "довольных клиентов",
+      statManaged: "под управлением",
       statRetention: "остаются",
     },
     services: {
@@ -640,7 +640,7 @@ const translations = {
       floatCard1: "Orden de venta",
       floatCard1Amount: "+$1,450",
       floatCard2: "Rendimiento",
-      floatCard2Amount: "+18.7%",
+      floatCard2Amount: "+24%",
       floatCard2Period: "este año",
       portfolioGrowth: "Crecimiento del portafolio",
       period3years: "3 años",
@@ -653,8 +653,8 @@ const translations = {
         "Compré mi primer activo a los 16, sigo invirtiendo y obteniendo resultados",
       p1: 'No vendo inversiones "mágicas". Ayudo a entender las finanzas, construir un sistema claro y tomar decisiones conscientes.',
       p2: "Mi enfoque equilibra la protección del capital con un crecimiento razonable. Sin esquemas agresivos.",
-      cert1: "+24% anual",
-      cert2: "150+ clientes",
+      cert1: "+24% este año",
+      cert2: "100+ clientes satisfechos",
       cert3: "5 años exp",
       statClients: "clientes",
       statManaged: "en gestión",
@@ -1143,13 +1143,16 @@ const reviewMedia = {
 
 let currentReview = null;
 let currentMediaIndex = 0;
+let currentMediaList = [];
 
 function openReviewModal(reviewId, startIndex = 0) {
   const media = reviewMedia[reviewId];
   if (!media || media.length === 0) return;
 
   currentReview = reviewId;
-  currentMediaIndex = Math.min(startIndex, media.length - 1);
+  currentMediaIndex = 0;
+  // Show only the single clicked item
+  currentMediaList = [media[Math.min(startIndex, media.length - 1)]];
 
   const modal = document.getElementById("reviewModal");
   modal.classList.remove("hidden");
@@ -1160,10 +1163,9 @@ function openReviewModal(reviewId, startIndex = 0) {
 }
 
 function showReviewMedia() {
-  const media = reviewMedia[currentReview];
-  if (!media) return;
+  if (!currentMediaList.length) return;
 
-  const item = media[currentMediaIndex];
+  const item = currentMediaList[currentMediaIndex];
   const content = document.getElementById("reviewContent");
   const counter = document.getElementById("reviewCounter");
 
@@ -1173,13 +1175,11 @@ function showReviewMedia() {
     content.innerHTML = `<img src="${item.src}" class="max-w-full max-h-[85vh] rounded-2xl shadow-2xl" alt="Review">`;
   }
 
-  counter.textContent = `${currentMediaIndex + 1} / ${media.length}`;
+  counter.textContent = "";
 
-  // Hide/show arrows
-  document.getElementById("reviewPrev").style.display =
-    currentMediaIndex > 0 ? "flex" : "none";
-  document.getElementById("reviewNext").style.display =
-    currentMediaIndex < media.length - 1 ? "flex" : "none";
+  // Always hide arrows — single item per modal
+  document.getElementById("reviewPrev").style.display = "none";
+  document.getElementById("reviewNext").style.display = "none";
 }
 
 function closeReviewModal() {
